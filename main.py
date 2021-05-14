@@ -90,8 +90,8 @@ while x != 0:
         #####################################################################
         for row in results:
             valores = calculadora(row[4])
-            print('O anuncio {} do cliente {} de data de inicio {} e data de termino {}'.format(row[0], row[1], parsedata(row[2], "/", 1), parsedata(row[3], "/", 1)))
-            print('Dos R$ {:.2f} investidos, será gerado um total de {:.0f} visualizações dos anúncios.'.format(row[4],valores['visualizacoes']))
+            print('O anuncio {} do cliente {} de data de inicio {} e data de termino {}.'.format(row[0], row[1], parsedata(row[2], "/", 1), parsedata(row[3], "/", 1)))
+            print('Dos R$ {:.2f} investidos, serao gerados um total de {:.0f} visualizações dos anúncios.'.format(row[4],valores['visualizacoes']))
             print('Foram gerados {:.0f} cliques e {:.0f} compartilhamentos \n'.format(valores['cliques'], valores['compartilhamentos']))
     if x != 0:
         x = iniciar()
