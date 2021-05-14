@@ -1,5 +1,13 @@
 
-
+############################################################################
+## function calculadora:
+##
+## Essa função é responsável por calcular o total de cliques,
+## compartilhamentos e visualizações. Ela faz o cálculo e retorna um objeto
+## com os valores "cliques" sendo o número total de cliques,
+## "compartilhamentos" sendo o máximo de compartilhamentos e "visualizacoes"
+## sendo o máximo de visualizações.
+############################################################################
 def calculadora(valor):
 
     click = ((valor * 30) * 12)/100
