@@ -11,28 +11,31 @@ Instruções do Menu:
 Ao executar main.py aparecera o seguinte Menu:
 
 Você deseja cadastrar um novo anuncio ou imprimir relatorio ?
-Para cadastrar novo anuncio digite: 1
-Para imprimir relatorio digite: 2
-Para fechar o programa digite: 0 
+Para cadastrar novo anúncio digite: 1. 
+Para imprimir relatório digite: 2. 
+Para fechar o programa digite: 0.
 
-Se for solicitado a opção escolhida for: 1, você sera direcionado para o menu de cadastro:
 
-Qual o nome do anuncio ?
-Qual o cliente ?
-Qual a data de inicio (Digite no formato dia/mes/ano) ?
-Qual a data de termino (Digite no formato dia/mes/ano) ?
-Qual o valor de investimento diario ? 
+Se a opção escolhida for: 1, você será direcionado para o menu de cadastro:
 
-Apos o cadastro você voltara ao menu inicial e podera realizar novo cadastro, ou imprimir relatorios:
-Se for escolhida a opção imprimir relatorio, você sera direcionado para o menu:
+Qual o nome do anúncio ? 
+Qual o cliente ? 
+Qual a data de início (Digite no formato dia/mês/ano) ? 
+Qual a data de término (Digite no formato dia/mês/ano) ? 
+Qual o valor de investimento diário ?
+ 
 
-Para relatorio completo digite: 1 
-Para relatorio com filtro por nome digite: 2 
-Para relatorio com filtro por data digite: 3 
-Para relatorio com filtro por nome e data digite: 4
+Após o cadastro você voltará ao menu inicial e poderá realizar um novo cadastro ou imprimir relatórios: 
+Se for escolhida a opção imprimir relatório, você será direcionado para o menu:
 
-Se for escolhida a opção 2 vai solicitar o nome antes da impressão do relatorio:
-Se for escolhida a opção numero 3 irao ser solicitadas as datas:
-Se for escolhida a opção 5 irao ser solicitadas as datas e nomes:
-Se for escolhida a opção 1 ou apos cada filtro sera imprimido o relatorio, com ou sem filtro, dependendo da solicitação.
+Para relatório completo digite: 1. 
+Para relatório com filtro por nome digite: 2. 
+Para relatório com filtro por data digite: 3. 
+Para relatório com filtro por nome e data digite: 4.
+
+
+Se for escolhida a opção 2, será solicitado o nome antes da impressão do relatório: 
+Se for escolhida a opção numero 3 serão solicitadas as datas: 
+Se for escolhida a opção 5 serão solicitadas as datas e os nomes: 
+Se for escolhida a opção 1, ou após cada filtro, será imprimido o relatório, com ou sem filtro, dependendo da solicitação.
 
